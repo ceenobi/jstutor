@@ -53,3 +53,20 @@ console.log(classItems.shift());
 console.log(classItems);
 
 //remove an item from a specific index
+
+//slice returns selected elements in an arrray as a new array
+const myFood = ["rice", "beans", "eba", "salad", "oo", "pp"];
+console.log(myFood.slice(3, 4));
+console.log(myFood);
+
+//merge two or more arrays - concat method or the spread operator
+// const mergedArray = places.concat(myFood);
+// console.log(mergedArray);
+
+
+// //using the spread operation
+// const spreadMyArray = [...myFood, ...places];
+// console.log(spreadMyArray);
+
+
+
